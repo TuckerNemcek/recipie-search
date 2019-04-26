@@ -1,7 +1,7 @@
 import React from "react"
 
-const Form = () => (
-  <form>
+const Form = props => (
+  <form onSubmit = {props.getRecipie}>
     <input type="text"/>
     <button>Search</button>
   </form>
