@@ -2,7 +2,7 @@ import React from "react"
 
 const Form = props => (
   <form onSubmit = {props.getRecipie}>
-    <input type="text"/>
+    <input type="text" name="recipieName"/>
     <button>Search</button>
   </form>
 )
